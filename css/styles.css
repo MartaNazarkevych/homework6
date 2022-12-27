@@ -481,7 +481,7 @@ body {
 
 .footer-icon-list {
   display: flex;
-  gap: 24px;
+  gap: 16px;
   margin-top: 12px;
 }
 
@@ -536,7 +536,7 @@ body {
 }
 
 .modal-form-input-email {
-  width: 100%;
+  width: 264px;
   height: 40px;
   background-color: #2e2f42;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -545,6 +545,7 @@ body {
   padding-bottom: 8px;
   padding-left: 16px;
   margin-right: 24px;
+  color: #FFFFFF;
 }
 
 .btn-subscribe {
@@ -593,7 +594,7 @@ body {
 .modal {
   position: absolute;
   width: 408px;
-  height: 576px;
+  min-height: 576px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -632,11 +633,13 @@ body {
   fill: white;
 }
 
+
 /* =============================Modal Form===================================== */
 
 .modal-form {
   display: flex;
   flex-direction: column;
+  margin-top: 8px;
 }
 
 .modal-form-input {
@@ -654,7 +657,6 @@ body {
   font-weight: 400;
   line-height: 1.1;
   color: #8e8f99;
-  margin-top: 8px;
 }
 
 .madal-window-title {
@@ -663,7 +665,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 .modal-form-wrapper {
@@ -694,7 +696,6 @@ body {
 .modal-form-comment {
   width: 360px;
   height: 120px;
-
   margin-top: 4px;
   padding-top: 8px;
   padding-left: 16px;
@@ -762,7 +763,8 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  width: 50%;
+  width: 169px;
+  height: 56px;
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;

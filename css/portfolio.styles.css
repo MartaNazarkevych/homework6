@@ -349,7 +349,7 @@ transition: color 250ms var(--timing-function);
 
 .footer-icon-list {
   display: flex;
-  gap: 24px;
+  gap: 16px;
   margin-top: 12px;
 }
 
@@ -404,7 +404,7 @@ transition: color 250ms var(--timing-function);
 }
 
 .modal-form-input-email {
-  width: 100%;
+  width: 264px;
   height: 40px;
   background-color: #2e2f42;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -413,6 +413,7 @@ transition: color 250ms var(--timing-function);
   padding-bottom: 8px;
   padding-left: 16px;
   margin-right: 24px;
+  color: #FFFFFF;;
 }
 
 .btn-subscribe {
